@@ -1,0 +1,95 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.recipe-card {
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.recipe-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.recipe-content {
+  padding: 20px;
+  text-align: center;
+  background: #060606;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.recipe-card:hover .recipe-content {
+  background: #0c0c0c;
+}
+
+.recipe-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ff4b5c;
+  transition: color 0.3s ease-in-out;
+}
+
+.recipe-title:hover {
+  color: #e63946;
+}
+
+
+.ingredients {
+  color: #007bff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.instructions {
+  font-size: 1.1rem;
+  color: #2d6a4f;
+  font-style: italic;
+  line-height: 1.6;
+  transition: color 0.3s ease-in-out;
+}
+
+.more-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(5, 5, 5);
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  border-radius: 25px;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.more-btn:hover {
+  background: linear-gradient(to right, #ff4b5c, #ff6a88);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+  .recipe-card {
+    width: 100%;
+    max-width: 90%;
+  }
+}

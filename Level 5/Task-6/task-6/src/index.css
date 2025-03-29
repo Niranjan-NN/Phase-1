@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 235vh;
+  overflow: hidden; /* Prevents extra scrolling */
+}

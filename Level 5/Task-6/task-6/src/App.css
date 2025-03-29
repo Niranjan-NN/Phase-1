@@ -1,0 +1,32 @@
+.movie-app {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+  min-height: 100vh;
+  min-width: 100vw; /* Ensures full width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centers content */
+  overflow: auto; /* Prevents content from being cut off */
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+  padding: 20px;
+  width: 90%; /* Ensures the movie grid fits properly */
+}
+
+input {
+  width: 80%; /* Adjust input width */
+  max-width: 400px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
