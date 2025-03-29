@@ -1,0 +1,7 @@
+[
+  { "name": "Alice", "age": 15, "grade": 10, "subjects": ["Math", "Science"], "address": { "street": "123 Main St", "city": "Chennai", "state": "TN" }},
+  { "name": "Arjun", "age": 14, "grade": 9, "subjects": ["English", "Social"], "address": { "street": "456 Elm St", "city": "Coimbatore", "state": "TN" }},
+  { "name": "Aadhya", "age": 15, "grade": 10, "subjects": ["Science", "Math"], "address": { "street": "789 Pine St", "city": "Madurai", "state": "TN" }},
+  { "name": "Rahul", "age": 16, "grade": 11, "subjects": ["Math", "Physics"], "address": { "street": "321 Oak St", "city": "Trichy", "state": "TN" }},
+  { "name": "Anjali", "age": 15, "grade": 10, "subjects": ["English", "Biology"], "address": { "street": "987 Birch St", "city": "Salem", "state": "TN" }}
+]

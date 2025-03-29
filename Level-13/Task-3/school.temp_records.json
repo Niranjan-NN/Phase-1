@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "67dbdb0046787eec368cd041"
+  },
+  "name": "Record1",
+  "category": "A",
+  "value": 10
+},
+{
+  "_id": {
+    "$oid": "67dbdb0046787eec368cd042"
+  },
+  "name": "Record2",
+  "category": "B",
+  "value": 15
+},
+{
+  "_id": {
+    "$oid": "67dbdb0046787eec368cd043"
+  },
+  "name": "Record3",
+  "category": "A",
+  "value": 20
+},
+{
+  "_id": {
+    "$oid": "67dbdb0046787eec368cd044"
+  },
+  "name": "Record4",
+  "category": "C",
+  "value": 25
+},
+{
+  "_id": {
+    "$oid": "67dbdb0046787eec368cd045"
+  },
+  "name": "Record5",
+  "category": "B",
+  "value": 30
+},
+{
+  "_id": {
+    "$oid": "67dbdb0046787eec368cd046"
+  },
+  "name": "Record6",
+  "category": "A",
+  "value": 35
+},
+{
+  "_id": {
+    "$oid": "67dbdb0046787eec368cd047"
+  },
+  "name": "Record7",
+  "category": "C",
+  "value": 40
+},
+{
+  "_id": {
+    "$oid": "67dbdb0046787eec368cd048"
+  },
+  "name": "Record8",
+  "category": "B",
+  "value": 45
+},
+{
+  "_id": {
+    "$oid": "67dbdb0046787eec368cd049"
+  },
+  "name": "Record9",
+  "category": "A",
+  "value": 50
+},
+{
+  "_id": {
+    "$oid": "67dbdb0046787eec368cd04a"
+  },
+  "name": "Record10",
+  "category": "C",
+  "value": 55
+}]

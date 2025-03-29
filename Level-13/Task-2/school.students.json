@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "67dae8c3af231b5fb478b2f3"
+  },
+  "name": "kaviya",
+  "age": 30,
+  "grade": "9",
+  "subjects": [
+    "computer science"
+  ],
+  "address": {
+    "street": "7/10-2 sri ram garden",
+    "city": "coimbatore",
+    "state": "Tamil Nadu"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67db9600f7c5e2d76bc688d3"
+  },
+  "name": "Alice",
+  "age": 16,
+  "grade": 10,
+  "subjects": [
+    "Math",
+    "Science"
+  ],
+  "address": {
+    "street": "123 Main St",
+    "city": "Chennai",
+    "state": "TN"
+  },
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "67db9600f7c5e2d76bc688d4"
+  },
+  "name": "Arjun",
+  "age": 14,
+  "grade": 9,
+  "subjects": [
+    "English",
+    "Social"
+  ],
+  "address": {
+    "street": "456 Elm St",
+    "city": "Coimbatore",
+    "state": "TN"
+  }
+},
+{
+  "_id": {
+    "$oid": "67db9600f7c5e2d76bc688d5"
+  },
+  "name": "Aadhya",
+  "age": 15,
+  "grade": 10,
+  "subjects": [
+    "Science",
+    "Math"
+  ],
+  "address": {
+    "street": "789 Pine St",
+    "city": "Madurai",
+    "state": "TN"
+  },
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "67db9600f7c5e2d76bc688d6"
+  },
+  "name": "Rahul",
+  "age": 17,
+  "grade": 11,
+  "subjects": [
+    "Math",
+    "Physics"
+  ],
+  "address": {
+    "street": "321 Oak St",
+    "city": "Trichy",
+    "state": "TN"
+  }
+},
+{
+  "_id": {
+    "$oid": "67db9600f7c5e2d76bc688d7"
+  },
+  "name": "Anjali",
+  "age": 15,
+  "grade": 10,
+  "subjects": [
+    "English",
+    "Biology"
+  ],
+  "address": {
+    "street": "987 Birch St",
+    "city": "Salem",
+    "state": "TN"
+  },
+  "status": "active"
+}]

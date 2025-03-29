@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "67dbeaa346787eec368cd069"
+  },
+  "title": "The Silent Patient",
+  "published_date": {
+    "$date": "2019-02-05T00:00:00.000Z"
+  },
+  "ISBN": "9781250301697",
+  "page_count": 336,
+  "genres": [
+    "Thriller",
+    "Mystery"
+  ],
+  "publisher": {
+    "name": "Celadon Books",
+    "location": "New York, USA"
+  }
+},
+{
+  "_id": {
+    "$oid": "67dbeaa346787eec368cd06a"
+  },
+  "title": "Sapiens: A Brief History of Humankind",
+  "published_date": {
+    "$date": "2015-02-10T00:00:00.000Z"
+  },
+  "ISBN": "9780062316097",
+  "page_count": 512,
+  "genres": [
+    "Non-fiction",
+    "History"
+  ],
+  "publisher": {
+    "name": "Harper",
+    "location": "London, UK"
+  }
+},
+{
+  "_id": {
+    "$oid": "67dbeaa346787eec368cd06b"
+  },
+  "title": "Atomic Habits",
+  "published_date": {
+    "$date": "2018-10-16T00:00:00.000Z"
+  },
+  "ISBN": "9780735211292",
+  "page_count": 320,
+  "genres": [
+    "Self-help",
+    "Motivation"
+  ],
+  "publisher": {
+    "name": "Penguin Random House",
+    "location": "New York, USA"
+  }
+},
+{
+  "_id": {
+    "$oid": "67dbeaa346787eec368cd06c"
+  },
+  "title": "Educated",
+  "published_date": {
+    "$date": "2018-02-20T00:00:00.000Z"
+  },
+  "ISBN": "9780399590504",
+  "page_count": 400,
+  "genres": [
+    "Memoir",
+    "Autobiography"
+  ],
+  "publisher": {
+    "name": "Random House",
+    "location": "London, UK"
+  }
+},
+{
+  "_id": {
+    "$oid": "67dbeaa346787eec368cd06d"
+  },
+  "title": "1984",
+  "published_date": {
+    "$date": {
+      "$numberLong": "-649036800000"
+    }
+  },
+  "ISBN": "9780451524935",
+  "page_count": 328,
+  "genres": [
+    "Dystopian",
+    "Science Fiction"
+  ],
+  "publisher": {
+    "name": "Secker & Warburg",
+    "location": "London, UK"
+  }
+}]

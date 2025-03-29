@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd055"
+  },
+  "name": "Laptop",
+  "price": 800,
+  "category": "Electronics",
+  "stock": 10
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd056"
+  },
+  "name": "Smartphone",
+  "price": 600,
+  "category": "Electronics",
+  "stock": 25
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd057"
+  },
+  "name": "Headphones",
+  "price": 150,
+  "category": "Electronics",
+  "stock": 50
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd058"
+  },
+  "name": "Desk",
+  "price": 200,
+  "category": "Furniture",
+  "stock": 15
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd059"
+  },
+  "name": "Chair",
+  "price": 100,
+  "category": "Furniture",
+  "stock": 20
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd05a"
+  },
+  "name": "Tablet",
+  "price": 400,
+  "category": "Electronics",
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd05b"
+  },
+  "name": "Monitor",
+  "price": 300,
+  "category": "Electronics",
+  "stock": 12
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd05c"
+  },
+  "name": "Keyboard",
+  "price": 50,
+  "category": "Electronics",
+  "stock": 40
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd05d"
+  },
+  "name": "Mouse",
+  "price": 30,
+  "category": "Electronics",
+  "stock": 45
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd05e"
+  },
+  "name": "Watch",
+  "price": 250,
+  "category": "Accessories",
+  "stock": 18
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd05f"
+  },
+  "name": "Speaker",
+  "price": 180,
+  "category": "Electronics",
+  "stock": 35
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd060"
+  },
+  "name": "Sofa",
+  "price": 900,
+  "category": "Furniture",
+  "stock": 5
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd061"
+  },
+  "name": "TV",
+  "price": 1200,
+  "category": "Electronics",
+  "stock": 8
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd062"
+  },
+  "name": "Microwave",
+  "price": 500,
+  "category": "Appliances",
+  "stock": 10
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd063"
+  },
+  "name": "Refrigerator",
+  "price": 700,
+  "category": "Appliances",
+  "stock": 6
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd064"
+  },
+  "name": "Blender",
+  "price": 90,
+  "category": "Appliances",
+  "stock": 22
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd065"
+  },
+  "name": "Book",
+  "price": 20,
+  "category": "Books",
+  "stock": 60
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd066"
+  },
+  "name": "Pen",
+  "price": 5,
+  "category": "Stationery",
+  "stock": 80
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd067"
+  },
+  "name": "Notebook",
+  "price": 15,
+  "category": "Stationery",
+  "stock": 75
+},
+{
+  "_id": {
+    "$oid": "67dbe77246787eec368cd068"
+  },
+  "name": "Fan",
+  "price": 350,
+  "category": "Appliances",
+  "stock": 13
+}]

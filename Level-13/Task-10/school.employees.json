@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "67dc1f2146787eec368cd06e"
+  },
+  "employee_id": "EMP-1001",
+  "name": "Alice Johnson",
+  "department": "IT",
+  "hire_date": {
+    "$date": "2023-04-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67dc1f3046787eec368cd06f"
+  },
+  "employee_id": "EMP-1002",
+  "name": "Bob Williams",
+  "department": "HR",
+  "hire_date": {
+    "$date": "2022-01-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67dc1f3046787eec368cd070"
+  },
+  "employee_id": "EMP-1003",
+  "name": "Charlie Brown",
+  "department": "Finance",
+  "hire_date": {
+    "$date": "2021-11-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67dc1f6846787eec368cd072"
+  },
+  "employee_id": "EMP-1005",
+  "name": "Grace Adams",
+  "department": "Operations"
+}]
