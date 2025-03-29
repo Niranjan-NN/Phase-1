@@ -1,0 +1,17 @@
+.app-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 600px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+body{
+  background-color: rgb(90, 140, 164)}
