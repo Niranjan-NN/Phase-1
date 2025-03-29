@@ -1,0 +1,83 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;  /* Added to apply centering */
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);  /* Added background for the entire page */
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.9); /* Added transparency for better readability */
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    max-width: 450px; /* Increased width slightly */
+    width: 90%;
+    color: #333;
+}
+
+.title {
+    font-size: 2.5rem; /* Enlarged title */
+    margin-bottom: 20px;
+    color: #333;  /* Improved contrast */
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Improved spacing */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;  /* Enhanced border */
+    border-radius: 8px;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #4CAF50;  /* Highlight on focus */
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.success, .error {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+body.loading::before {
+    content: '⏳ Loading...';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    z-index: 9999;
+}
