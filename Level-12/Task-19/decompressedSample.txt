@@ -1,0 +1,3 @@
+This is a sample text file for testing compression and decompression.
+Node.js makes file handling easy and efficient.
+Compression using zlib is fast and secure.

@@ -1,0 +1,17 @@
+📊 CSV Data Analysis Results 📊
+
+📘 Math
+   ➤ Average: 79.60
+   ➤ Max Score: 95
+   ➤ Min Score: 60
+
+📘 Science
+   ➤ Average: 82.60
+   ➤ Max Score: 90
+   ➤ Min Score: 75
+
+📘 English
+   ➤ Average: 81.20
+   ➤ Max Score: 92
+   ➤ Min Score: 70
+
