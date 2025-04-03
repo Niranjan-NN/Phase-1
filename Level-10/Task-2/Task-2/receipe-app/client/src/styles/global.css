@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+  background-color: #fce4ec; /* Soft pink background */
+  font-family: "Poppins", sans-serif; /* Modern font */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #e91e63; /* Vibrant pink */
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1, h2 {
+  color: #c2185b; /* Deeper pink for contrast */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Footer */
+.footer {
+  background-color: #880e4f; /* Darker pink */
+  color: #f8f9fa;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e91e63; /* Pink border */
+  transition: border 0.3s ease-in-out;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color: #c2185b;
+  outline: none;
+}
+
+/* Custom Colors */
+.text-primary {
+  color: #e91e63 !important;
+  font-weight: bold;
+}
+
+.text-success {
+  color: #d81b60 !important;
+  font-weight: bold;
+}
+
+/* Thank You Page */
+.thank-you {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #c2185b;
+}
