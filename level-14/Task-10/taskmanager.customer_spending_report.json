@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "67e4dab50d9e6bfe5e177532"
+  },
+  "customerName": "Alice Johnson",
+  "orderCount": 1,
+  "customerSegment": "Loyal",
+  "totalSpent": 2200,
+  "avgOrderValue": 2200
+},
+{
+  "_id": {
+    "$oid": "67e4dab50d9e6bfe5e177533"
+  },
+  "customerName": "Bob Smith",
+  "orderCount": 1,
+  "customerSegment": "Regular",
+  "totalSpent": 900,
+  "avgOrderValue": 900
+}]

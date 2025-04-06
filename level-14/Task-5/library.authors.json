@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "67e2a8062cb08385e1fd6e41"
+  },
+  "name": "J.K. Rowling",
+  "birth_date": "1965-07-31",
+  "nationality": "British",
+  "biography": "Author of Harry Potter series",
+  "books": [
+    {
+      "$oid": "65a1b2c3d4e5f67890abcd10"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e2a8062cb08385e1fd6e42"
+  },
+  "name": "George Orwell",
+  "birth_date": "1903-06-25",
+  "nationality": "British",
+  "biography": "Wrote 1984 and Animal Farm",
+  "books": [
+    {
+      "$oid": "65a1b2c3d4e5f67890abcd11"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e2a8062cb08385e1fd6e43"
+  },
+  "name": "J.R.R. Tolkien",
+  "birth_date": "1892-01-03",
+  "nationality": "British",
+  "biography": "Wrote The Lord of the Rings",
+  "books": [
+    {
+      "$oid": "65a1b2c3d4e5f67890abcd12"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e2a8062cb08385e1fd6e44"
+  },
+  "name": "Isaac Asimov",
+  "birth_date": "1920-01-02",
+  "nationality": "American",
+  "biography": "Known for Foundation series",
+  "books": [
+    {
+      "$oid": "65a1b2c3d4e5f67890abcd13"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e2a8062cb08385e1fd6e45"
+  },
+  "name": "Agatha Christie",
+  "birth_date": "1890-09-15",
+  "nationality": "British",
+  "biography": "Famous for detective novels",
+  "books": [
+    {
+      "$oid": "65a1b2c3d4e5f67890abcd14"
+    }
+  ]
+},
+{
+  "_id": 1,
+  "name": "J.K. Rowling",
+  "nationality": "British"
+},
+{
+  "_id": 2,
+  "name": "George Orwell",
+  "nationality": "British"
+},
+{
+  "_id": 3,
+  "name": "Agatha Christie",
+  "nationality": "British"
+},
+{
+  "_id": 4,
+  "name": "Haruki Murakami",
+  "nationality": "Japanese"
+}]

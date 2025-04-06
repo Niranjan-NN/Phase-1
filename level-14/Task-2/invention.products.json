@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b7d"
+  },
+  "name": "Laptop",
+  "price": 1200,
+  "category": "Electronics",
+  "stock": 25
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b7e"
+  },
+  "name": "Smartphone",
+  "price": 800,
+  "category": "Electronics",
+  "stock": 40
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b7f"
+  },
+  "name": "Tablet",
+  "price": 450,
+  "category": "Electronics",
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b80"
+  },
+  "name": "Headphones",
+  "price": 150,
+  "category": "Electronics",
+  "stock": 100
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b81"
+  },
+  "name": "Smartwatch",
+  "price": 200,
+  "category": "Electronics",
+  "stock": 50
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b82"
+  },
+  "name": "Desk Chair",
+  "price": 300,
+  "category": "Furniture",
+  "stock": 20
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b83"
+  },
+  "name": "Coffee Table",
+  "price": 250,
+  "category": "Furniture",
+  "stock": 15
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b84"
+  },
+  "name": "Sofa",
+  "price": 900,
+  "category": "Furniture",
+  "stock": 8
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b85"
+  },
+  "name": "Bookshelf",
+  "price": 120,
+  "category": "Furniture",
+  "stock": 35
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b86"
+  },
+  "name": "Dining Table",
+  "price": 700,
+  "category": "Furniture",
+  "stock": 10
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b87"
+  },
+  "name": "T-shirt",
+  "price": 25,
+  "category": "Clothing",
+  "stock": 200
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b88"
+  },
+  "name": "Jeans",
+  "price": 50,
+  "category": "Clothing",
+  "stock": 150
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b89"
+  },
+  "name": "Jacket",
+  "price": 100,
+  "category": "Clothing",
+  "stock": 75
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b8a"
+  },
+  "name": "Sneakers",
+  "price": 90,
+  "category": "Clothing",
+  "stock": 120
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b8b"
+  },
+  "name": "Socks",
+  "price": 10,
+  "category": "Clothing",
+  "stock": 300
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b8c"
+  },
+  "name": "Blender",
+  "price": 80,
+  "category": "Appliances",
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b8d"
+  },
+  "name": "Microwave",
+  "price": 220,
+  "category": "Appliances",
+  "stock": 18
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b8e"
+  },
+  "name": "Refrigerator",
+  "price": 1500,
+  "category": "Appliances",
+  "stock": 5
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b8f"
+  },
+  "name": "Washing Machine",
+  "price": 850,
+  "category": "Appliances",
+  "stock": 7
+},
+{
+  "_id": {
+    "$oid": "67e16f33fa1558af4f6e5b90"
+  },
+  "name": "Air Conditioner",
+  "price": 600,
+  "category": "Appliances",
+  "stock": 12
+}]

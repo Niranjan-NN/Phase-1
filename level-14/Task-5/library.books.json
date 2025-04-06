@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "67e2a8a1382f199c809a73ba"
+  },
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "published_date": "1997-06-26",
+  "ISBN": "9780439708180",
+  "page_count": 309,
+  "genres": [
+    "Fantasy"
+  ],
+  "publisher": {
+    "name": "Bloomsbury",
+    "location": "UK"
+  },
+  "authors": [
+    {
+      "$oid": "65a1b2c3d4e5f67890abcd01"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e2a8a1382f199c809a73bb"
+  },
+  "title": "1984",
+  "published_date": "1949-06-08",
+  "ISBN": "9780451524935",
+  "page_count": 328,
+  "genres": [
+    "Dystopian"
+  ],
+  "publisher": {
+    "name": "Secker & Warburg",
+    "location": "UK"
+  },
+  "authors": [
+    {
+      "$oid": "65a1b2c3d4e5f67890abcd02"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e2a8a1382f199c809a73bc"
+  },
+  "title": "The Hobbit",
+  "published_date": "1937-09-21",
+  "ISBN": "9780345339683",
+  "page_count": 310,
+  "genres": [
+    "Fantasy"
+  ],
+  "publisher": {
+    "name": "Allen & Unwin",
+    "location": "UK"
+  },
+  "authors": [
+    {
+      "$oid": "65a1b2c3d4e5f67890abcd03"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e2a8a1382f199c809a73bd"
+  },
+  "title": "Foundation",
+  "published_date": "1951-01-01",
+  "ISBN": "9780553293357",
+  "page_count": 255,
+  "genres": [
+    "Science Fiction"
+  ],
+  "publisher": {
+    "name": "Gnome Press",
+    "location": "USA"
+  },
+  "authors": [
+    {
+      "$oid": "65a1b2c3d4e5f67890abcd04"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e2a8a1382f199c809a73be"
+  },
+  "title": "Murder on the Orient Express",
+  "published_date": "1934-01-01",
+  "ISBN": "9780007119318",
+  "page_count": 256,
+  "genres": [
+    "Mystery"
+  ],
+  "publisher": {
+    "name": "Collins Crime Club",
+    "location": "UK"
+  },
+  "authors": [
+    {
+      "$oid": "65a1b2c3d4e5f67890abcd05"
+    }
+  ]
+},
+{
+  "_id": 101,
+  "title": "Harry Potter",
+  "author_id": 1,
+  "genre": "Fantasy"
+},
+{
+  "_id": 102,
+  "title": "1984",
+  "author_id": 2,
+  "genre": "Dystopian"
+},
+{
+  "_id": 103,
+  "title": "Murder on the Orient Express",
+  "author_id": 3,
+  "genre": "Mystery"
+},
+{
+  "_id": 104,
+  "title": "Norwegian Wood",
+  "author_id": 4,
+  "genre": "Fiction"
+},
+{
+  "_id": 105,
+  "title": "Animal Farm",
+  "author_id": 2,
+  "genre": "Satire"
+}]

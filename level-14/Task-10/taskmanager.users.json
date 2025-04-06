@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "651d1b2e5f3a2b5d4c8e7b1a"
+  },
+  "name": "Alice Johnson",
+  "email": "alice@example.com"
+},
+{
+  "_id": {
+    "$oid": "651d1b2e5f3a2b5d4c8e7b1b"
+  },
+  "name": "Bob Smith",
+  "email": "bob@example.com"
+},
+{
+  "_id": {
+    "$oid": "651d1b2e5f3a2b5d4c8e7b1c"
+  },
+  "name": "Charlie Brown",
+  "email": "charlie@example.com"
+},
+{
+  "_id": {
+    "$oid": "651d1b2e5f3a2b5d4c8e7b1d"
+  },
+  "name": "Daisy Adams",
+  "email": "daisy@example.com"
+}]

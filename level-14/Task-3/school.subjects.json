@@ -1,0 +1,41 @@
+[{
+  "_id": 1,
+  "name": "Alice",
+  "subjects": [
+    "Math",
+    "Science",
+    "English",
+    "History",
+    "Physics"
+  ]
+},
+{
+  "_id": 2,
+  "name": "Bob",
+  "subjects": [
+    "Math",
+    "English"
+  ]
+},
+{
+  "_id": 3,
+  "name": "Charlie",
+  "subjects": [
+    "Science",
+    "Math",
+    "History",
+    "English"
+  ]
+},
+{
+  "_id": 4,
+  "name": "David",
+  "subjects": [
+    "Math",
+    "Science",
+    "English",
+    "History",
+    "Geography",
+    "Physics"
+  ]
+}]

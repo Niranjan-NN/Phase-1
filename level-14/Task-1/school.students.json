@@ -1,0 +1,162 @@
+[{
+  "_id": {
+    "$oid": "67e0fbadf66064734c1fb529"
+  },
+  "name": "John",
+  "age": 16,
+  "grade": "10th",
+  "subjects": [
+    "Math",
+    "Science",
+    "English"
+  ],
+  "address": {
+    "street": "123 Main St",
+    "city": "New York",
+    "state": "NY"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e0fbe2ff3d770942c6208c"
+  },
+  "name": "Alice Johnson",
+  "age": 14,
+  "grade": "9th",
+  "subjects": [
+    "Math",
+    "Science",
+    "English"
+  ],
+  "address": {
+    "street": "123 Main St",
+    "city": "New York",
+    "state": "NY"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e0fcb6ff3d770942c6208d"
+  },
+  "name": "Bala",
+  "age": 15,
+  "grade": "10th",
+  "subjects": [
+    "History",
+    "Math",
+    "Physics"
+  ],
+  "address": {
+    "street": "456 Oak St",
+    "city": "Los Angeles",
+    "state": "CA"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e0fcb6ff3d770942c6208e"
+  },
+  "name": "Charles",
+  "age": 13,
+  "grade": "8th",
+  "subjects": [
+    "Science",
+    "English",
+    "Geography"
+  ],
+  "address": {
+    "street": "789 Pine St",
+    "city": "Chicago",
+    "state": "IL"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e0fcb6ff3d770942c6208f"
+  },
+  "name": "Diviya",
+  "age": 16,
+  "grade": "11th",
+  "subjects": [
+    "Chemistry",
+    "Math",
+    "Computer Science"
+  ],
+  "address": {
+    "street": "321 Maple St",
+    "city": "Houston",
+    "state": "TX"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e0fcb6ff3d770942c62090"
+  },
+  "name": "Dinesh",
+  "age": 14,
+  "grade": "9th",
+  "subjects": [
+    "Biology",
+    "English",
+    "Music"
+  ],
+  "address": {
+    "street": "654 Cedar St",
+    "city": "San Francisco",
+    "state": "CA"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e15b75a2d3064f0de38f61"
+  },
+  "name": "Kani",
+  "age": 17,
+  "grade": "12th",
+  "subjects": [
+    "Biology",
+    "English",
+    "Music"
+  ],
+  "address": {
+    "street": "654 Cedar St",
+    "city": "San Francisco",
+    "state": "CA"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e15bfaa2d3064f0de38f62"
+  },
+  "name": "Abi",
+  "age": 19,
+  "grade": "12th",
+  "subjects": [
+    "Biology",
+    "English",
+    "Music"
+  ],
+  "address": {
+    "street": "654 Cedar St",
+    "city": "San Francisco",
+    "state": "CA"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e15dbea2d3064f0de38f63"
+  },
+  "name": "Arul",
+  "age": 19,
+  "grade": "11th",
+  "subjects": [
+    "Biology",
+    "English",
+    "Physics"
+  ],
+  "address": {
+    "street": "654 Cedar St",
+    "city": "Los Angeles",
+    "state": "CA"
+  }
+}]

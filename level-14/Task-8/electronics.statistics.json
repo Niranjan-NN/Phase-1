@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "67e4b1bbf0713237db0de564"
+  },
+  "name": "Alice",
+  "age": 17,
+  "score": 85
+},
+{
+  "_id": {
+    "$oid": "67e4b1bbf0713237db0de565"
+  },
+  "name": "Bob",
+  "age": 22,
+  "score": 78
+},
+{
+  "_id": {
+    "$oid": "67e4b1bbf0713237db0de566"
+  },
+  "name": "Charlie",
+  "age": 25,
+  "score": 92
+},
+{
+  "_id": {
+    "$oid": "67e4b1bbf0713237db0de567"
+  },
+  "name": "David",
+  "age": 19,
+  "score": 74
+},
+{
+  "_id": {
+    "$oid": "67e4b1bbf0713237db0de568"
+  },
+  "name": "Emma",
+  "age": 21,
+  "score": 88
+},
+{
+  "_id": {
+    "$oid": "67e4b1bbf0713237db0de569"
+  },
+  "name": "Frank",
+  "age": 18,
+  "score": 79
+},
+{
+  "_id": {
+    "$oid": "67e4b1bbf0713237db0de56a"
+  },
+  "name": "Grace",
+  "age": 23,
+  "score": 91
+},
+{
+  "_id": {
+    "$oid": "67e4b1bbf0713237db0de56b"
+  },
+  "name": "Hannah",
+  "age": 20,
+  "score": 84
+},
+{
+  "_id": {
+    "$oid": "67e4b1bbf0713237db0de56c"
+  },
+  "name": "Ian",
+  "age": 26,
+  "score": 95
+},
+{
+  "_id": {
+    "$oid": "67e4b1bbf0713237db0de56d"
+  },
+  "name": "Jack",
+  "age": 29,
+  "score": 69
+}]

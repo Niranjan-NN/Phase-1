@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "652d2b3e6f4a3c6e8d9f7c1a"
+  },
+  "name": "Laptop",
+  "price": 1000
+},
+{
+  "_id": {
+    "$oid": "652d2b3e6f4a3c6e8d9f7c1b"
+  },
+  "name": "Phone",
+  "price": 500
+},
+{
+  "_id": {
+    "$oid": "652d2b3e6f4a3c6e8d9f7c1c"
+  },
+  "name": "Headphones",
+  "price": 200
+}]
