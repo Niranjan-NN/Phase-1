@@ -1,0 +1,14 @@
+{
+  "name": "markdown-notes-app",
+  "version": "1.0.0",
+  "description": "Markdown note taking app using fs module",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.0.0",
+    "marked": "^10.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "photo.jpg": "images",
+    "logo.png": "images",
+    "report.pdf": "documents",
+    "notes.txt": "documents",
+    "movie.mp4": "videos",
+    "unknown.xyz": "others"
+  }
+  
