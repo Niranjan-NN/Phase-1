@@ -1,0 +1,56 @@
+.favorite-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid var(--neutral-300);
+  border-radius: var(--radius-md);
+  background-color: white;
+  color: var(--neutral-700);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.favorite-button:hover {
+  background-color: var(--neutral-100);
+  border-color: var(--neutral-400);
+}
+
+.favorite-button.is-favorite {
+  color: var(--error-500);
+  border-color: var(--error-500);
+  background-color: rgba(231, 76, 60, 0.05);
+}
+
+.favorite-button.is-favorite:hover {
+  background-color: rgba(231, 76, 60, 0.1);
+}
+
+.heart-icon {
+  font-size: 1.1rem;
+}
+
+.heart-animation {
+  position: absolute;
+  color: var(--error-500);
+  font-size: 1.1rem;
+  left: 1.2rem;
+  pointer-events: none;
+}
+
+@media (max-width: 480px) {
+  .favorite-text {
+    display: none;
+  }
+  
+  .favorite-button {
+    padding: 0.6rem;
+  }
+  
+  .heart-animation {
+    left: 0.6rem;
+  }
+}

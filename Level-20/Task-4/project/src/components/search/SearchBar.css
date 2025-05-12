@@ -1,0 +1,136 @@
+.search-bar-container {
+  position: relative;
+  width: 100%;
+}
+
+.search-form {
+  width: 100%;
+}
+
+.search-input-wrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.65rem 1rem;
+  padding-right: 3rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--neutral-300);
+  border-radius: var(--radius-md);
+  background-color: var(--neutral-100);
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--primary-500);
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+.search-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  color: var(--neutral-500);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.search-button:hover {
+  color: var(--primary-500);
+}
+
+.search-suggestions {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  z-index: 10;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.suggestions-loading {
+  padding: var(--space-2);
+  text-align: center;
+  color: var(--neutral-500);
+  font-size: 0.9rem;
+}
+
+.suggestion-group {
+  padding: var(--space-1) 0;
+  border-bottom: 1px solid var(--neutral-200);
+}
+
+.suggestion-group:last-child {
+  border-bottom: none;
+}
+
+.suggestion-group-title {
+  padding: 0.5rem var(--space-2);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--neutral-500);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.suggestion-item {
+  padding: 0.75rem var(--space-2);
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  font-size: 0.95rem;
+}
+
+.suggestion-item:hover {
+  background-color: var(--neutral-100);
+  color: var(--primary-500);
+}
+
+.location-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem var(--space-2);
+  background-color: var(--primary-100);
+  color: var(--primary-700);
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.15s ease;
+  text-align: left;
+}
+
+.location-button:hover {
+  background-color: var(--primary-200);
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .search-input {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.75rem;
+    padding-right: 2.5rem;
+  }
+  
+  .search-button {
+    width: 2.2rem;
+  }
+}

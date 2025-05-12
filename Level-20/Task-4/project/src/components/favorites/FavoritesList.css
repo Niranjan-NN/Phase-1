@@ -1,0 +1,95 @@
+.favorites-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-2);
+}
+
+.favorite-item {
+  background-color: white;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.favorite-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.favorite-info {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.favorite-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-100);
+  color: var(--primary-500);
+}
+
+.favorite-name {
+  font-weight: 500;
+  color: var(--neutral-900);
+}
+
+.favorite-remove-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--neutral-100);
+  color: var(--neutral-600);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.favorite-remove-btn:hover {
+  background-color: var(--error-100);
+  color: var(--error-500);
+}
+
+.favorites-empty {
+  background-color: white;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-4);
+  text-align: center;
+  margin-top: var(--space-3);
+}
+
+.favorites-empty-icon {
+  font-size: 2.5rem;
+  color: var(--neutral-300);
+  margin-bottom: var(--space-2);
+}
+
+.favorites-empty h3 {
+  color: var(--neutral-700);
+  margin-bottom: var(--space-1);
+}
+
+.favorites-empty p {
+  color: var(--neutral-600);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .favorites-list {
+    grid-template-columns: 1fr;
+  }
+}

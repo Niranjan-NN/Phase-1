@@ -1,0 +1,105 @@
+.dashboard-container {
+  min-height: calc(100vh - 160px);
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-3);
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.dashboard-title {
+  font-size: 1.8rem;
+  margin: 0;
+  color: var(--neutral-900);
+}
+
+.weather-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.dashboard-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-5) var(--space-2);
+  background-color: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  margin: var(--space-5) auto;
+  max-width: 500px;
+}
+
+.empty-state-icon {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin-bottom: var(--space-3);
+}
+
+.empty-cloud {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 40px;
+  background: var(--neutral-300);
+  border-radius: 40px;
+}
+
+.empty-cloud:before, .empty-cloud:after {
+  content: '';
+  position: absolute;
+  background: var(--neutral-300);
+  border-radius: 50%;
+}
+
+.empty-cloud:before {
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  left: 15px;
+}
+
+.empty-cloud:after {
+  width: 30px;
+  height: 30px;
+  top: -15px;
+  right: 15px;
+}
+
+.empty-sun {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background: var(--neutral-400);
+  border-radius: 50%;
+}
+
+.dashboard-empty-state h2 {
+  color: var(--neutral-800);
+  margin-bottom: var(--space-1);
+}
+
+.dashboard-empty-state p {
+  color: var(--neutral-600);
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
